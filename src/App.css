@@ -1,38 +1,63 @@
-.App {
+* {
+  font-family: Helvetica;
+}
+ 
+ 
+.headerStyle {
   text-align: center;
+  background: blue;
+  padding: 5px;
+  color: antiquewhite;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ 
+.outFormStyle {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  padding: 8px 12px;
+  border: 2px solid;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ 
+button {
+  background: navy;
+  color: antiquewhite;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ 
+button:hover {
+  background-color: black;
+  cursor: pointer;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+ 
+input[type=text] {
+  width: 200px;
+  height: 22px;
+  margin-bottom: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ 
+.itemStyle {
+  list-style-type: none;
+  padding: 5px;
+  border: 2px solid;
+  width: 30%;
+  background-color: beige;
+  margin: 5px;
+}
+ 
+.editBtn {
+  margin-left: 10px;
+}
+ 
+.submitEditBtn {
+ 
+  margin-left: 10px;
+  ;
+}
+ 
+.itemText{
+  margin: 5px;
 }
